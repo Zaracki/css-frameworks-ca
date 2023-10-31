@@ -1,2 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+body {
+  background: linear-gradient(180deg, #E69023 0%, #BF5002 100%), #FFF;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
