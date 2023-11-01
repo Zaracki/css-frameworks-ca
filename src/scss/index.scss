@@ -19,9 +19,14 @@ body {
 }
 
 .rounded-thumbnail {
-  border: 2px solid #ffffff;
+  border: 4px solid #ffffff;
 }
 
 .profile-picture {
   transform: translate(0%, -50%);
+}
+
+.thumbnail-xs {
+  width: 25px;
+  height: 20px;
 }
