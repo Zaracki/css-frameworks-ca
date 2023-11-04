@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="dist/css/index.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-light bg-primary fixed-top justify-content-center">
+      <img src="/images/Logo Half - Mobile.png" class="header-logo">
+    </nav>
+  </header>
 <section>
   <div class="container min-vh-100 d-flex justify-content-center align-items-center flex-column">
       <img src="/images/Logo - Full.png" class="login-logo mb-5">
@@ -17,7 +23,7 @@
         </div>
         <div class="mb-4">
           <label for="exampleInputPassword1" class="form-label text-white mb-0">Password:</label>
-          <input type="password" class="form-control form-control-sm rounded-2" id="exampleInputPassword1">
+          <input type="password" class="form-control form-control-sm rounded-2" id="exampleInputPassword1" minlength="8" required/>
         </div>
         <button type="submit" class="btn btn-primary col-12 mb-2 text-white rounded-5">Login</button>
         <button type="submit" class="btn btn-secondary col-12 rounded-5 btn-outline-light">Register</button>
@@ -28,6 +34,11 @@
     </div>
   </div>
 </section>
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3">
+    © 2020 Copyright: Tangy
+  </div>
+</footer>
 </body>
 
 </html>
