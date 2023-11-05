@@ -1,1 +1,32 @@
+@import "variables";
 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// background and padding for content under nav
+body {
+  background: linear-gradient(180deg, #E69023 0%, #BF5002 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 56px;
+}
+
+.login-logo {
+  width: 188px;
+  height: 139px;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.thumbnail-xs {
+  width: 25px;
+  height: 20px;
+}
+
+// Remove textarea resize
+
+.resize-none {
+  resize: none;
+}
